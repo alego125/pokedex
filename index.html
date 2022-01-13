@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>Pokedex</h1>
+    <h4>Seleccionar por:</h4>
+    <select name="SeleccionarPor" id="seleccion">
+        <option value="1">Nombre</option>
+        <option value="2">Id</option>
+    </select>
+    <div class="pokedex">
+        <div class="ids">
+            <label>Id 1:</label>
+            <input type="text" id="pokemon1">
+            <label>Id 2:</label>
+            <input type="text" id="pokemon2">
+        </div>
+        <div class="nombres">
+            <label>Nombre 1:</label>
+            <input type="text" id="poke1">
+            <label>Nombre 2:</label>
+            <input type="text" id="poke2">
+        </div>
+    </div>
+    <button id="btn">Consultar</button>
+    <div class="pokemonList">
+        <div class="pokemon" id="pok1">
+            <img src="" alt="">
+            <h3></h3>
+            <p></p>
+            <p></p>
+            <ol id="fetch-async"></ol>
+        </div>
+
+        <div class="vs">Vs</div>
+
+        <div class="pokemon" id="pok2">
+            <img src="" alt="">
+            <h3></h3>
+            <p></p>
+            <p></p>
+            <ol id="fetch-async"></ol>
+        </div>
+    </div>
+    <div class="mensajes"></div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
