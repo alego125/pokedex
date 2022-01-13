@@ -121,4 +121,12 @@ body h4{
         width: 50%;
         margin: 0;
     }
+
+    .pokemonList{
+        flex-direction: column;
+    }
+
+    .pokemon{
+        width: 40%;
+    }
 }
